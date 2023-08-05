@@ -1,0 +1,44 @@
+@import 'styles/__variaveis.scss';
+
+.field{
+    display: flex;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 5px;
+    height: max-content;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    &__inputDiv, &__textarea{
+        display: flex;
+        justify-content: space-between;
+        gap: 15px;
+        margin-bottom: 25px;
+    }
+    &__inputDiv input, &__textarea{
+        padding: 5px;
+        border-radius: 5px;
+        border: 1px solid $verde;
+    }
+    &__inputDiv label{
+        color: $branco;
+    }
+    &__textarea{
+        flex: 1;
+        display: flex;
+        min-height: max-content;
+    }
+    &__btn{
+        border: 1px solid $verde;
+        background-color: transparent;
+        padding: 5px 20px;
+        border-radius: 5px;
+        color: $branco;
+        align-self: center;
+    }
+    &__btn:hover{
+        background-color: $verde;
+    }
+}

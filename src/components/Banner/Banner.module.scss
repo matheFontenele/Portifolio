@@ -1,0 +1,48 @@
+@import 'styles/__variaveis.scss';
+
+.banner {
+    padding: 3rem 7.5rem 6.25rem;
+    color: $branco;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    &__apresentacao__titulo{
+        font-size: 5rem;
+        text-transform: uppercase;
+    }
+    &__apresentacao__paragrafo{
+        font-size: 2rem;
+        line-height: 2rem;
+        margin-bottom: 2rem;
+    }
+    &__apresentacao__skills{
+        font-size: 4rem;
+        display: flex;
+        justify-content: space-around;
+    }
+    &__apresentacao__projectsIntro{
+        text-transform: uppercase;
+        margin-top: 4rem;
+        &__icon{
+            color: $verde;
+            font-size: 2rem;
+        }
+    }
+    &__imagens{
+        position: relative;
+        height: 406px;
+        &__minhaFoto{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            width: 19vw;
+            border-radius: 50%;
+            box-shadow: 14.7px 17px 11px #0000004d, 117px 136px 88px #00000026;
+        }
+        &__circuloColorido{
+            position: absolute;
+            right: 7vw;
+            bottom: 2.2vw;
+            width: 26vw;
+        }
+    }
+}

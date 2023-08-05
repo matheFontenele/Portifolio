@@ -1,0 +1,63 @@
+@import 'styles/__variaveis.scss';
+
+.projetos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem;
+    border: 1px solid $verde;
+    &__posts{
+        padding: 0 6vw ;
+        display: flex;
+        gap: 1.5rem;
+        margin-top: -2.5rem;
+        border-radius: 20px;
+    }
+}
+
+.post{
+    background: $backgroud-secundaria;
+    text-align: center;
+    width: 15rem;
+    height: 27rem;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+    padding-bottom: 1.5rem;
+    transition: transform .2s;
+    flex: none;
+    &__img{
+        width: 15rem;
+        height: 15rem;
+        border-radius: 20px 20px 0 0;
+    }
+    &__titulo{
+        color: $branco;
+        font-size: 1rem;
+        margin: 15px;
+    }
+    &__texto{
+        color: $branco;
+        font-size: .8rem;
+        margin: 15px;
+    }
+    &__btn{
+        border-radius: 24px;
+        padding: .5rem 1.5rem;
+        font-size: 0.8rem;
+        line-height: 1.125rem;
+        color: $branco;
+        background-color: $verde;
+        border: 1px solid transparent;
+        cursor: pointer;
+        opacity: 0.8;
+    }
+    &__btn:hover{
+        border-color: $branco;
+        opacity: 1;
+    }
+}
+
+.post:hover{
+    transform: translate(0, -1rem);
+}
+

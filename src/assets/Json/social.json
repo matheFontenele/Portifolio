@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "WhatsApp",
+        "img": "https://img.icons8.com/ios-filled/50/whatsapp--v4.png",
+        "link": "https://api.whatsapp.com/send?phone=5585992867481"
+    },
+    {
+        "id": 2,
+        "name": "Linkedin",
+        "img": "https://img.icons8.com/ios-filled/50/linkedin.png",
+        "link": "https://www.linkedin.com/in/matheus-fontenele-2a40a4175/"
+    },
+    {
+        "id": 3,
+        "name": "GitHub",
+        "img": "https://img.icons8.com/ios-filled/50/github.png",
+        "link": "https://github.com/matheFontenele"
+    },
+    {
+        "id": 4,
+        "name": "Gmail",
+        "img": "https://img.icons8.com/ios-filled/50/gmail.png",
+        "link": "https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=matheusfontenele979700@gmail.com"
+    },
+    {
+        "id": 5,
+        "name": "Instagram",
+        "img": "https://img.icons8.com/ios-filled/50/instagram-new--v1.png",
+        "link": "https://www.instagram.com/abuleibuleiblau/"
+    }
+]
