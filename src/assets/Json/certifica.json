@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "nome": "HTML e CSS: ambientes de desenvolvimento, estrutura de arquivos e tags",
+        "de": "Alura",
+        "data": "Jul 2023",
+        "credencial": "https://cursos.alura.com.br/certificate/8162872a-849a-4dbf-8910-b606a7b8d410"
+    },
+    {
+        "id": 2,
+        "nome": "React: desenvolvendo com JavaScript",
+        "de": "Alura",
+        "data": "Jul 2023",
+        "credencial": "https://cursos.alura.com.br/certificate/9c98ea93-a624-461a-b315-3d22a00e4037"
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "curso": "Informatica",
+        "insti": "EEEP Jaime Alencar de Oliveira",
+        "perido": ["Jan 2012", "Dez 2015"]
+    },
+    {
+        "id": 2,
+        "curso": "Analise e Desenvolvimento de Sistemas",
+        "insti": "Fanor Wyden",
+        "perido": ["Ago 2023", "Cursando"]
+    }
+]

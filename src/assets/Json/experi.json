@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "nome": "TechPrint",
+        "tempo": ["Agosto 2015", "Dezembro 2015"],
+        "cargo": "Estagiario",
+        "func": "Auxilio na manutenção de computadores, instalação de sistemas e suporte via telefone e residencial."
+    },
+    {
+        "id": 2,
+        "nome": "Guararapes Confecções",
+        "tempo": ["Junho 2016", "Maio 2018"],
+        "cargo": "Auxiliar Administrativo",
+        "func": "Digitalização e controle de notas fiscais de entrada e saída da empresa por meio do sistema (Systextil), organização e manutenção do arquivo de notas antigas da empresa, alimentação e controle de planilhas de frotas e transportes, auxilio nas demais tarefas do setor contábil. "
+    },
+    {
+        "id": 3,
+        "nome": "Constram",
+        "tempo": ["Junho 2018", "Julho 2019"],
+        "cargo": "Auxiliar Administrativo",
+        "func": "Auxilio nas atividades do escritório, controle de estoque tanto de matérias de escritório como de obras administradas pela empresa, auxílio em pesquisa de preços no setor de compras, recebimento de mercadorias e checagem das mesmas."
+    },
+    {
+        "id": 4,
+        "nome": "Postop RM",
+        "tempo": ["Maio 2020", "Maio 2022"],
+        "cargo": "Frentista",
+        "func": "Abastecimento de veículos com GNV (Gás), auxilio no abastecimento dos demais combustíveis (Gasolina, álcool, diesel), organização de produtos na loja de conveniência"
+    },
+    {
+        "id": 5,
+        "nome": "CRC Grupo AlmaViva",
+        "tempo": ["Abril 2023", "Atulamente"],
+        "cargo": "Operador de cobrança",
+        "func": "Ligar e receber ligações referentes a dívidas de cartão de crédito."
+    }
+]
