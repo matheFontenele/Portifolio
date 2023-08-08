@@ -4,48 +4,48 @@
         "nome": "HTML5",
         "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-plain.svg",
         "link": "",
-        "sobre": ""
+        "sobre": "O HTML5 é a versão mais recente do HTML e suporta novas funcionalidades de linguagem de marcação, como multimídia, novas tags, elementos e novas APIs."
     },
     {
         "id": 2,
         "nome": "CSS3",
         "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-plain.svg",
         "link": "",
-        "sobre": ""
+        "sobre": "CSS3 é a terceira mais nova versão das famosas Cascading Style Sheets (ou simplesmente CSS), onde se define estilos para seu projeto web."
     },
     {
         "id": 3,
         "nome": "JavaScript",
         "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg",
         "link": "",
-        "sobre": ""
+        "sobre": "JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web."
     },
     {
         "id": 4,
         "nome": "TypeScript",
         "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg",
         "link": "",
-        "sobre": ""
+        "sobre": "TypeScript é uma linguagem de programação de código aberto desenvolvida pela Microsoft. É um superconjunto sintático estrito de JavaScript e adiciona tipagem estática opcional à linguagem."
     },
     {
         "id": 5,
         "nome": "React JS",
         "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
         "link": "",
-        "sobre": ""
+        "sobre": "React é um framework JavaScript criado pelo Facebook (atual Meta) que é usado para criar interfaces de usuário (UI) em aplicativos web. Ele é popular por ser fácil de usar, altamente flexível e escalável, e é usado por muitas empresas de tecnologia, incluindo o Facebook, Instagram e Airbnb."
     },
     {
         "id": 6,
         "nome": "SASS",
         "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg",
         "link": "",
-        "sobre": ""
+        "sobre": "Sass é uma linguagem de folhas de estilo concebida inicialmente por Hampton Catlin e desenvolvida por Natalie Weizenbaum. Depois de suas versões iniciais, Weizenbaum e Chris Eppstein continuaram a estender Sass com SassScript, uma simples linguagem de script usada em arquivos Sass."
     },
     {
         "id": 7,
         "nome": "Bootstrap",
         "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg",
         "link": "",
-        "sobre": ""
+        "sobre": "Bootstrap é um framework web com código-fonte aberto para desenvolvimento de componentes de interface e front-end para sites e aplicações web, usando HTML, CSS e JavaScript, baseado em modelos de design para a tipografia, melhorando a experiência do usuário em um site amigável e responsivo. "
     }
 ]
