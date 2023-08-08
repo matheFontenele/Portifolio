@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "nome": "HTML5",
+        "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-plain.svg",
+        "link": "",
+        "sobre": ""
+    },
+    {
+        "id": 2,
+        "nome": "CSS3",
+        "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-plain.svg",
+        "link": "",
+        "sobre": ""
+    },
+    {
+        "id": 3,
+        "nome": "JavaScript",
+        "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg",
+        "link": "",
+        "sobre": ""
+    },
+    {
+        "id": 4,
+        "nome": "TypeScript",
+        "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg",
+        "link": "",
+        "sobre": ""
+    },
+    {
+        "id": 5,
+        "nome": "React JS",
+        "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
+        "link": "",
+        "sobre": ""
+    },
+    {
+        "id": 6,
+        "nome": "SASS",
+        "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg",
+        "link": "",
+        "sobre": ""
+    },
+    {
+        "id": 7,
+        "nome": "Bootstrap",
+        "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg",
+        "link": "",
+        "sobre": ""
+    }
+]

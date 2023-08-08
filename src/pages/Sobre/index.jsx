@@ -1,17 +1,14 @@
 import Apresenta from "components/Apresentacao";
-import Certificado from "components/Certificados";
-import Experiencia from "components/Experiencia";
-import Formacao from "components/Formacao";
+import Informacao from "components/Informacao";
+import Skills from "components/Skills";
+
 
 export default function Sobre(){
     return(
         <main>
             <Apresenta/>
-            <section>
-                <Experiencia/>
-                <Formacao/>
-                <Certificado/>
-            </section>
+            <Informacao/>
+            <Skills/>
         </main>
     )
 }
