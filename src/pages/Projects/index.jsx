@@ -1,7 +1,11 @@
+import BannerProject from "components/BannerProjects";
+import Projects from "components/Projects";
+
 export default function Projetos(){
     return(
         <main>
-            <h1>Projetos</h1>
+            <BannerProject/>
+            <Projects/>
         </main>
     )
 }
