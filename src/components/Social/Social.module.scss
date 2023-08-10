@@ -1,0 +1,28 @@
+@import 'styles/__variaveis.scss';
+
+.section{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 3rem;
+    gap: 2rem;
+    &__title{
+        color: $branco;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+}
+
+.ul{
+    display: flex;
+    justify-content: space-around;
+    &__lista{
+        text-align: center;
+        &__name{
+            color: $verde;
+        }
+        &__icon{
+            width: 5rem;
+        }
+    }
+}

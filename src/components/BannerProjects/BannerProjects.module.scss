@@ -1,0 +1,13 @@
+@import 'styles/__variaveis.scss';
+
+.banner{
+    min-height: 10rem;
+    padding: 20px;
+    &__title, &__text{
+        color: $branco;
+        background-color: $border-color;
+        opacity: 0.7;
+        max-width: 70%;
+        padding: 10px;
+    }
+}

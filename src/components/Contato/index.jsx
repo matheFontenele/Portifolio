@@ -1,5 +1,5 @@
 import Formulario from "./Formulario";
-import Social from "./Social";
+import Social from "../SocialLinks";
 import styles from './Contato.module.scss'
 import cafe from 'assets/imgs/coffee.svg'
 
@@ -13,7 +13,10 @@ export default function Contato(){
                     <p className={styles.div__p}>Entre em contato pelas redes sociais ou deixe uma mensagem!</p>
                 </div>
         
-                <Social/>
+                <Social 
+                    classeUl={styles.social} 
+                    classeIcon={styles.social__icons}
+                    classeName={styles.social__name}/>
                 
                 <img className={styles.contato__cafe} src={cafe} alt='cafe'/>
             

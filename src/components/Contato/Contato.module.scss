@@ -29,3 +29,18 @@
         color: $branco;
     }
 }
+
+.social{
+    display: flex;
+    justify-content: space-around;
+    &__icon{
+        transition:
+        rotate 3s;
+    }
+    &icon:hover{
+        rotate: 720deg;
+    }
+    &__name{
+        display: none;
+    }
+}

@@ -1,7 +1,11 @@
+import BannerContact from "components/BannerContact";
+import Social from "components/Social";
+
 export default function Contact(){
     return(
         <main>
-            <h1>Contato</h1>
+            <BannerContact/>
+            <Social/>
         </main>
     )
 }

@@ -1,19 +1,19 @@
 import sociais from 'assets/Json/social.json'
-import styles from './Social.module.scss'
 
-export default function Social(){
+export default function SocialLink({classeUl, classeLi, classeIcon, classeName}){
     return(
-            <ul className={styles.social}>
+            <ul className={classeUl}>
                {sociais.map((social) => (
                 
-                <li key={social.id}>
+                <li className={classeLi} key={social.id}>
                     
                     <a href={social.link}>
                         <img 
-                            className={styles.icon} 
+                            className={classeIcon} 
                             src={social.img} 
                             alt={social.name}
                         />
+                        <p className={classeName}>{social.name}</p>
                     </a>
                 
                 </li>
