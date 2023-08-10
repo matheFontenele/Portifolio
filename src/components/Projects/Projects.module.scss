@@ -14,15 +14,16 @@
 
 .projeto{
     display: flex;
+    justify-content: space-evenly;
     box-shadow: $box-shadow;
     border-radius: 20px;
     flex-direction: column;
     width: 332px;
-    height: 416.344px;
+    height: max-content;
+    min-height: 460px;
     border: 1px solid transparent;
     &__img{
         border-radius: 30px 30px 0 0;
-        height: 60%;
     }
     &__title, &__descri{
         color: $branco;
@@ -32,5 +33,35 @@
 
 .projeto:hover{
     border-color: $branco;
+}
+
+.tec{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: .8rem;
+    color: $branco;
+    flex-wrap: wrap;
+    &__item{
+        padding: 3px;
+        &__html{
+            background-color: $html;
+        }
+        &__css{
+            background-color: $css;
+        }
+        &__javascript{
+            background-color: $javascript;
+        }
+        &__typescript{
+            background-color: $typescript;
+        }
+        &__react{
+            background-color: $react;
+        }
+        &__sass{
+            background-color: $sass;
+        }
+    }
+    
 }
 

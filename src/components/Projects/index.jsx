@@ -1,6 +1,7 @@
 import { BsPersonWorkspace } from 'react-icons/bs'
 import Projetos from 'assets/Json/projetos.json'
 import styles from './Projects.module.scss'
+import classNames from 'classnames'
 
 export default function Projects(){
     return(
@@ -27,6 +28,16 @@ export default function Projects(){
                         <p className={styles.projeto__descri}>
                             {projeto.descri}
                         </p>
+
+                        <div className={styles.tec}>
+                            {projeto.tecnologias.map((tec) =>
+                            <p className={classNames({
+                                [styles.tec__item] : true,
+                                [styles[`tec__item__${tec.id}`]] : true
+                            })}>
+                                {tec.label}</p>
+                            )}
+                        </div>
                     </div>
                 ))}
             </div>
