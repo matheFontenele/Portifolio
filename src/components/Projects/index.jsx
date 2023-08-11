@@ -31,13 +31,16 @@ export default function Projects(){
 
                         <div className={styles.tec}>
                             {projeto.tecnologias.map((tec) =>
-                            <p className={classNames({
+                            <p className=
+                                {classNames({
                                 [styles.tec__item] : true,
                                 [styles[`tec__item__${tec.id}`]] : true
                             })}>
-                                {tec.label}</p>
-                            )}
+                                {tec.label}
+                            </p>)}
                         </div>
+
+                        <a className={styles.projeto__btn} href={projeto.url}>Ver projeto no Git</a>
                     </div>
                 ))}
             </div>

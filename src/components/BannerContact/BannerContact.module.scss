@@ -12,6 +12,10 @@
     &__div{
         display: flex;
         flex-direction: column;
+        &__title{
+            color: $branco;
+            text-transform: uppercase;
+        }
     }
     &__formulario{
         height: max-content;
