@@ -47,3 +47,11 @@
         }
     }
 }
+
+@media (max-width: $mobile){
+    .banner{
+        &__apresentacao__titulo{
+            font-size: 3rem;
+        }
+    }
+  }

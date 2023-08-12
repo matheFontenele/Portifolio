@@ -1,14 +1,27 @@
-import styles from 'components/Header/Header.module.scss'
-import MenuLink from 'components/MenuLink'
+import styles from './Navbar.module.scss';
+import { useState } from 'react';
+import classNames from 'classnames';
+import { GrClose } from 'react-icons/gr';
+import { FaBars } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
-export default function NavBar(){
+export default function Navbar(){
+    const [open, setOpen] = useState(false);
+
     return(
-        <nav className={styles.header__navbar}>
-
-            <MenuLink title='Home' path='/' to='/'/>
-            <MenuLink title='Sobre Mim' path='/sobremim' to='/sobremim'/>
-            <MenuLink title='Projetos' path='/projetos' to='/projetos'/>
-            <MenuLink title='Contato' path='/contato' to='/contato'/>
+        <nav className={styles.navbar} 
+            onClick={() => setOpen(!open)}>
+            
+            {open ? <GrClose size={25} color='#008000'/> : <FaBars size={25} color='#008000' />}
+            <div className={classNames({
+                [styles.navbar__pages]:true,
+                [styles.navbar__pages__ativo]: open
+            })}>
+                <Link className={styles.navbar__page} path='/' to='/'>Home</Link>
+                <Link className={styles.navbar__page} path='/sobremim' to='/sobremim'>Sobre Mim</Link>
+                <Link className={styles.navbar__page} path='/projetos' to='/projetos'>Projetos</Link>
+                <Link className={styles.navbar__page} path='/contato' to='/contato'>Contato</Link>
+            </div>
         </nav>
     )
 }

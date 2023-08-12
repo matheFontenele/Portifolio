@@ -1,0 +1,42 @@
+@import 'styles/__variaveis.scss';
+
+.navbar {
+  align-items: center;
+  border: none;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  display: flex;
+  font-size: 1rem;
+  font-weight: bold;
+  height: 40px;
+  justify-content:center;
+  min-width: 240px;
+  padding: 0 40px;
+  position: relative;
+  &__pages {
+    display: none;
+    position: absolute;
+    left: 0;
+    flex-direction: column;
+    top: 100%;
+    width: 100%;
+    &__ativo {
+      display: flex;
+    }
+  }
+  &__page {
+    align-items: center;
+    background-color: $verde;
+    box-sizing: border-box;
+    color: $branco;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    width: inherit;
+    &__ativa{
+      background-color: $verde;
+      cursor: pointer;
+      color: $branco;
+    }
+  }
+}

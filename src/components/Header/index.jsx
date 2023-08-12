@@ -13,14 +13,6 @@ export default function Header(){
 
             <NavBar/>
         
-            <ul className={styles.header__listContac}>
-                <a href="https://www.linkedin.com/in/matheus-fontenele-2a40a4175/">
-                    <i className="fa-brands fa-linkedin"></i>
-                </a>
-                <a href="https://github.com/matheFontenele">
-                    <i className="fa-brands fa-github"></i>
-                </a>
-            </ul>
         </header>
     )
 }

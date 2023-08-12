@@ -22,40 +22,6 @@
             color: #fff;
         }
     }
-    &__listContac{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        & a i{
-            font-size: 1.5rem;
-            padding: 5px;
-            color: $branco;
-            opacity: 0.8;
-        }
-        & a i:hover{
-            opacity: 1;
-        }
-    }
-    &__navbar{
-        display: flex;
-        justify-content: space-around;
-        gap: 30px;
-        &__link{
-            font-size: 1.25rem;
-            line-height: 1.5rem;
-            color: $branco;
-        }
-        &__linkDestaque{
-            text-decoration: underline;
-        }
-    }
 }
 
 
-@media (max-width: $mobile) {
-    .header{
-        &__nameMe{
-            padding: 0;
-        }
-    }
-    }

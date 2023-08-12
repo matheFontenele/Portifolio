@@ -1,4 +1,5 @@
 @import 'styles/__variaveis.scss';
+@import 'styles/__breakpoints.scss';
 
 .contato{
     display: flex;
@@ -44,3 +45,13 @@
         display: none;
     }
 }
+
+
+@media (max-width: $mobile) {
+    .contato{
+        flex-direction: column;
+        &__cafe{
+            display: none;
+        }
+    }
+  }

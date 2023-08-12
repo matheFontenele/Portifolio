@@ -19,13 +19,13 @@
 .projeto{
     cursor: pointer;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     box-shadow: $box-shadow;
     border-radius: 20px 20px 0 0;
     flex-direction: column;
     width: 332px;
     height: max-content;
-    min-height: 460px;
+    min-height: 500px;
     border: 1px solid transparent;
     &__img{
         border-radius: 30px 30px 0 0;
@@ -35,7 +35,7 @@
         margin: 15px 20px;
     }
     &__btn{
-        
+        padding: 5px;
         text-align: center;
         color: $branco;
         margin: 15px 0 0 0;
