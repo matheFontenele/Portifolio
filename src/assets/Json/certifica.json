@@ -4,13 +4,20 @@
         "nome": "HTML e CSS: ambientes de desenvolvimento, estrutura de arquivos e tags",
         "de": "Alura",
         "data": "Jul 2023",
-        "credencial": "https://cursos.alura.com.br/certificate/8162872a-849a-4dbf-8910-b606a7b8d410"
+        "credencial": "https://cursos.alura.com.br/certificate/8162872a-849a-4dbf-8910-b606a7b8d410?lang=pt_BR"
     },
     {
         "id": 2,
         "nome": "React: desenvolvendo com JavaScript",
         "de": "Alura",
         "data": "Jul 2023",
-        "credencial": "https://cursos.alura.com.br/certificate/9c98ea93-a624-461a-b315-3d22a00e4037"
+        "credencial": "https://cursos.alura.com.br/certificate/9c98ea93-a624-461a-b315-3d22a00e4037?lang=pt_BR"
+    },
+    {
+        "id": 3,
+        "nome": "React: lidando com arquivos estáticos",
+        "de": "Alura",
+        "data": "Ago 2023",
+        "credencial": "https://cursos.alura.com.br/certificate/14352d64-6b3d-4de8-9c8c-c30a692e5597?lang=pt_BR"
     }
 ]

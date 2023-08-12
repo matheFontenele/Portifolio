@@ -87,7 +87,7 @@
             "name": "Aluroni",
             "img": "/assets/aluroni.jpg",
             "descri": "Projeto feito com parceria Alura, restaurante ficticio feito em React TypeScript, SASS.",
-            "url":"https://github.com/matheFontenele/anitube",
+            "url":"https://github.com/matheFontenele/Aluroni",
             "tecnologias": [
                 {
                     "id": "html",
