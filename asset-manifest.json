@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/matheFontenele/Portifolio.git/static/css/main.b41607f6.css",
+    "main.js": "/matheFontenele/Portifolio.git/static/js/main.af6ada95.js",
+    "static/media/circulo.png": "/matheFontenele/Portifolio.git/static/media/circulo.3372f177c8f6027a4a46.png",
+    "static/media/capa.jpg": "/matheFontenele/Portifolio.git/static/media/capa.497a1e89083f5a4fc9a5.jpg",
+    "static/media/coffee.svg": "/matheFontenele/Portifolio.git/static/media/coffee.883f3d72bc487a50b763d000aa86d81c.svg",
+    "static/media/work.png": "/matheFontenele/Portifolio.git/static/media/work.33bd26d7811ef7c00b94.png",
+    "index.html": "/matheFontenele/Portifolio.git/index.html",
+    "main.b41607f6.css.map": "/matheFontenele/Portifolio.git/static/css/main.b41607f6.css.map",
+    "main.af6ada95.js.map": "/matheFontenele/Portifolio.git/static/js/main.af6ada95.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b41607f6.css",
+    "static/js/main.af6ada95.js"
+  ]
+}
