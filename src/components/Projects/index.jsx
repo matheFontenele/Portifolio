@@ -20,27 +20,28 @@ export default function Projects(){
                             className={styles.projeto__img} 
                             src={projeto.img} 
                             alt={projeto.name}/>
-                        
-                        <h3 className={styles.projeto__title}>
-                            {projeto.name}
-                        </h3>
-                        
-                        <p className={styles.projeto__descri}>
-                            {projeto.descri}
-                        </p>
 
-                        <div className={styles.tec}>
-                            {projeto.tecnologias.map((tec) =>
-                            <p className=
-                                {classNames({
-                                [styles.tec__item] : true,
-                                [styles[`tec__item__${tec.id}`]] : true
-                            })}>
-                                {tec.label}
-                            </p>)}
-                        </div>
+                            <div className={styles.projeto__detals}>
+                                <h3 className={styles.projeto__detals__title}>
+                                {projeto.name}
+                                </h3>
+                        
+                                <p className={styles.projeto__detals__descri}>
+                                {projeto.descri}
+                                </p>
 
-                        <a className={styles.projeto__btn} href={projeto.url}>Ver projeto no Git</a>
+                                <div className={styles.tec}>
+                                {projeto.tecnologias.map((tec) =>
+                                    <p className=
+                                    {classNames({
+                                    [styles.tec__item] : true,
+                                    [styles[`tec__item__${tec.id}`]] : true
+                                    })}>
+                                    {tec.label}
+                                    </p>)}
+                                </div>
+                                    <a className={styles.projeto__detals__btn} href={projeto.url}>Ver projeto no Git</a>
+                            </div>
                     </div>
                 ))}
             </div>

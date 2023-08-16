@@ -3,6 +3,8 @@
 .banner{
     min-height: 10rem;
     padding: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
     &__title, &__text{
         color: $branco;
         background-color: $border-color;

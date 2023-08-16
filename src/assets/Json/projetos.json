@@ -114,6 +114,35 @@
                     "label": "SASS"
                 }
             ]
+        },
+        {
+            "id": 5,
+            "name": "Pokedex",
+            "img": "/assets/pokedex.jpg",
+            "descri": "Pokedex feita em React JS e SASS utilizando AXIOS para consumo de API externa.",
+            "url":"https://github.com/matheFontenele/Aluroni",
+            "tecnologias": [
+                {
+                    "id": "html",
+                    "label": "HTML5"
+                },
+                {
+                    "id": "css",
+                    "label": "CSS3"
+                },
+                {
+                    "id": "javascript",
+                    "label": "JavaScript"
+                },
+                {
+                    "id": "react",
+                    "label": "React"
+                },
+                {
+                    "id": "sass",
+                    "label": "SASS"
+                }
+            ]
         }
 
 ]
