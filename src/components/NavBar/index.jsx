@@ -12,7 +12,7 @@ export default function Navbar(){
         <nav className={styles.navbar} 
             onClick={() => setOpen(!open)}>
             
-            {open ? <GrClose size={25} color='#008000'/> : <FaBars size={25} color='#008000' />}
+            {open ? <GrClose size={30} className={styles.navbar__menu}/> : <FaBars size={30} className={styles.navbar__menu} />}
             <div className={classNames({
                 [styles.navbar__pages]:true,
                 [styles.navbar__pages__ativo]: open

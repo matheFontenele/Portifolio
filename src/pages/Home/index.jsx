@@ -1,12 +1,12 @@
 import Banner from 'components/Banner';
-import TopProjects from 'components/TopProjects';
+import FrontProjects from 'components/FrontProjects';
 import Contato from 'components/Contato';
 
 export default function Home(){
     return(
         <main>
             <Banner/>
-            <TopProjects/>
+            <FrontProjects/>
             <Contato/>
         </main>
     )

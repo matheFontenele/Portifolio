@@ -5,6 +5,7 @@ import Footer from "components/Footer";
 import Sobre from "pages/Sobre";
 import Projetos from "pages/Projects";
 import Contact from "pages/Contact";
+import Error from "pages/Error";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/sobremim" element={<Sobre/>}/>
         <Route path="/projetos" element={<Projetos/>}/>
         <Route path="/contato" element={<Contact/>}/>
+        <Route path="*" element={<Error/>}/>
       </Routes>
 
       <Footer/>

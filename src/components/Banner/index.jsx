@@ -32,7 +32,7 @@ export default function Banner(){
 
                 <h2 className={styles.banner__apresentacao__projectsIntro}>
                     <AiOutlineLeft className={styles.banner__apresentacao__projectsIntro__icon}/>
-                    Confira abaixo alguns dos meus principais projetos
+                    Confira abaixo alguns de meus projetos e formas de entrar em contato
                     <AiOutlineRight className={styles.banner__apresentacao__projectsIntro__icon}/>    
                 </h2>
 

@@ -13,6 +13,10 @@
   min-width: 240px;
   padding: 0 40px;
   position: relative;
+  &__menu{
+    color: $verde;
+    cursor: pointer;
+  }
   &__pages {
     display: none;
     position: absolute;
