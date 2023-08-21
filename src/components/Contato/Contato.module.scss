@@ -47,11 +47,11 @@
 }
 
 
-@media (max-width: $mobile) {
+@media (min-width: $mobile) and (max-width: $iphone){
     .contato{
         flex-direction: column;
         &__cafe{
             display: none;
         }
     }
-  }
+}

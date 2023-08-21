@@ -3,7 +3,7 @@ import styles from './FrontProjects.module.scss'
 
 export default function FrontProjects(){
   let RandomProjetos = [...Projeto]
-  RandomProjetos = RandomProjetos.sort(() => 0.5 - Math.random()).splice(0,3)
+  RandomProjetos = RandomProjetos.sort(() => Math).splice(0,3)
 
   return(
     <ul className={styles.projetos}>

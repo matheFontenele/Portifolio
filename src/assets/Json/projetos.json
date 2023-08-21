@@ -1,6 +1,68 @@
 [
-        {
-            "id": 1,
+    {
+        "id": 1,
+        "name": "Pokedex",
+        "img": "/assets/pokedex.jpg",
+        "descri": "Pokedex feita em React JS e SASS utilizando AXIOS para consumo de API externa.",
+        "url":"https://github.com/matheFontenele/Aluroni",
+        "tecnologias": [
+            {
+                "id": "html",
+                "label": "HTML5"
+            },
+            {
+                "id": "css",
+                "label": "CSS3"
+            },
+            {
+                "id": "javascript",
+                "label": "JavaScript"
+            },
+            {
+                "id": "react",
+                "label": "React"
+            },
+            {
+                "id": "sass",
+                "label": "SASS"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Aluroni",
+        "img": "/assets/aluroni.jpg",
+        "descri": "Projeto feito com parceria Alura, restaurante ficticio feito em React TypeScript, SASS.",
+        "url":"https://github.com/matheFontenele/Aluroni",
+        "tecnologias": [
+            {
+                "id": "html",
+                "label": "HTML5"
+            },
+            {
+                "id": "css",
+                "label": "CSS3"
+            },
+            {
+                "id": "javascript",
+                "label": "JavaScript"
+            },
+            {
+                "id": "typescript",
+                "label": "TypeScript"
+            },
+            {
+                "id": "react",
+                "label": "React"
+            },
+            {
+                "id": "sass",
+                "label": "SASS"
+            }
+        ]
+    },
+    {
+        "id": 3,
             "name": "The Bar Card",
             "img": "/assets/thebar.jpg",
             "descri": "Prototipo de cardapio interativo feito em JavaScript puro, layout mobile",
@@ -21,7 +83,7 @@
             ]
         },
         {
-            "id": 2,
+            "id": 4,
             "name": "Portifolio",
             "img": "/assets/portifolio.jpg",
             "descri": "Codigo deste portifolio, feito todo em React JS e CSS module",
@@ -50,7 +112,7 @@
             ]
         },
         {
-            "id": 3,
+            "id": 5,
             "name": "AniTube",
             "img": "/assets/anitube.jpg",
             "descri": "Streaming de animes com layout baseado na Netflix feito em React TypeScript e SASS",
@@ -81,68 +143,5 @@
                     "label": "SASS"
                 }
             ]
-        },
-        {
-            "id": 4,
-            "name": "Aluroni",
-            "img": "/assets/aluroni.jpg",
-            "descri": "Projeto feito com parceria Alura, restaurante ficticio feito em React TypeScript, SASS.",
-            "url":"https://github.com/matheFontenele/Aluroni",
-            "tecnologias": [
-                {
-                    "id": "html",
-                    "label": "HTML5"
-                },
-                {
-                    "id": "css",
-                    "label": "CSS3"
-                },
-                {
-                    "id": "javascript",
-                    "label": "JavaScript"
-                },
-                {
-                    "id": "typescript",
-                    "label": "TypeScript"
-                },
-                {
-                    "id": "react",
-                    "label": "React"
-                },
-                {
-                    "id": "sass",
-                    "label": "SASS"
-                }
-            ]
-        },
-        {
-            "id": 5,
-            "name": "Pokedex",
-            "img": "/assets/pokedex.jpg",
-            "descri": "Pokedex feita em React JS e SASS utilizando AXIOS para consumo de API externa.",
-            "url":"https://github.com/matheFontenele/Aluroni",
-            "tecnologias": [
-                {
-                    "id": "html",
-                    "label": "HTML5"
-                },
-                {
-                    "id": "css",
-                    "label": "CSS3"
-                },
-                {
-                    "id": "javascript",
-                    "label": "JavaScript"
-                },
-                {
-                    "id": "react",
-                    "label": "React"
-                },
-                {
-                    "id": "sass",
-                    "label": "SASS"
-                }
-            ]
         }
-
 ]

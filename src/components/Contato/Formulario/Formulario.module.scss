@@ -1,4 +1,5 @@
 @import 'styles/__variaveis.scss';
+@import 'styles/__breakpoints.scss';
 
 .field{
     display: flex;
@@ -40,5 +41,18 @@
     }
     &__btn:hover{
         background-color: $verde;
+    }
+}
+
+@media (min-width: $mobile) and (max-width: $iphone){
+    .field{
+        background: $background-escura;
+    }
+    .form{
+        &__inputDiv, &__textarea{
+            display: flex;
+            flex-direction: column;
+            width: 80%;
+        }
     }
 }

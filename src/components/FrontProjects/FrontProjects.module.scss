@@ -55,5 +55,11 @@
     
 }
 
+@media (min-width: $mobile) and (max-width: $iphone){
+    .projetos{
+        flex-direction: column;
+    }
+}
+
 
 

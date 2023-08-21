@@ -1,4 +1,5 @@
 @import 'styles/__variaveis.scss';
+@import 'styles/__breakpoints.scss';
 
 .apresentacao{
     display: flex;
@@ -13,6 +14,16 @@
         color: $branco;
         &__title{
             font-size: 3rem;
+        }
+    }
+}
+
+@media (min-width: $mobile) and (max-width: $iphone){
+    .apresentacao{
+        flex-direction: column;
+        &__img{
+            width: 20rem;
+            height: 20rem;
         }
     }
 }

@@ -6,21 +6,22 @@
     color: $branco;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    &__apresentacao__titulo{
+    &__apresentacao{
+    &__titulo{
         font-size: 5rem;
         text-transform: uppercase;
     }
-    &__apresentacao__paragrafo{
-        font-size: 2rem;
-        line-height: 2rem;
-        margin-bottom: 2rem;
+    &__paragrafo{
+            font-size: 2rem;
+            line-height: 2rem;
+            margin-bottom: 2rem;
     }
-    &__apresentacao__skills{
+    &__skills{
         font-size: 4rem;
         display: flex;
         justify-content: space-around;
     }
-    &__apresentacao__projectsIntro{
+    &__projectsIntro{
         width: 70%;
         text-transform: uppercase;
         margin-top: 4rem;
@@ -29,7 +30,9 @@
             font-size: 2rem;
         }
     }
+}
     &__imagens{
+        z-index: -1;
         position: relative;
         height: 406px;
         &__minhaFoto{
@@ -49,10 +52,29 @@
     }
 }
 
-@media (max-width: $mobile){
+@media (min-width: $mobile) and (max-width: $iphone){
     .banner{
-        &__apresentacao__titulo{
+        width: 100%;
+        padding: 15px;
+        &__apresentacao{
+            &__titulo{
+            font-size: 1.5rem;
+        }
+        &__paragrafo{
+            font-size: 1rem;
+        }
+        &__skills{
             font-size: 3rem;
         }
+        &__projectsIntro{
+            font-size: .8rem;
+
+        }
+        }
+        &__imagens{
+            z-index: -1;
+            height: 20rem;
+        }
     }
-  }
+}
+
