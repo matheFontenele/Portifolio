@@ -1,0 +1,27 @@
+@import 'styles/__variaveis.scss';
+@import 'styles/__breakpoints.scss';
+
+.error{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    &__img{
+        position: absolute;
+        width: 20rem;
+    }
+    &__404{
+        font-size: 27rem;
+        color: $verde;
+    }
+    &__text{
+        padding: 10px;
+        color: $branco;
+        border-radius: 10px;
+        background: rgba(0, 0, 0, 0.20);
+        &__link{
+            color: $verde;
+        }
+    }
+}

@@ -17,10 +17,10 @@ export default function Navbar(){
                 [styles.navbar__pages]:true,
                 [styles.navbar__pages__ativo]: open
             })}>
-                <Link className={styles.navbar__page} path='/' to='/'>Home</Link>
-                <Link className={styles.navbar__page} path='/sobremim' to='/sobremim'>Sobre Mim</Link>
-                <Link className={styles.navbar__page} path='/projetos' to='/projetos'>Projetos</Link>
-                <Link className={styles.navbar__page} path='/contato' to='/contato'>Contato</Link>
+                <Link className={styles.navbar__page} to='/'>Home</Link>
+                <Link className={styles.navbar__page} to='/sobremim'>Sobre Mim</Link>
+                <Link className={styles.navbar__page} to='/projetos'>Projetos</Link>
+                <Link className={styles.navbar__page} to='/contato'>Contato</Link>
             </div>
         </nav>
     )
