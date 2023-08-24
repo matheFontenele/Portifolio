@@ -45,9 +45,7 @@
 }
 
 @media (min-width: $mobile) and (max-width: $iphone){
-    .field{
-        background: $background-escura;
-    }
+
     .form{
         &__inputDiv, &__textarea{
             display: flex;

@@ -34,11 +34,11 @@
 .social{
     display: flex;
     justify-content: space-around;
-    &__icon{
+    &__icons{
         transition:
         rotate 3s;
     }
-    &icon:hover{
+    &__icons:hover{
         rotate: 720deg;
     }
     &__name{
@@ -50,8 +50,15 @@
 @media (min-width: $mobile) and (max-width: $iphone){
     .contato{
         flex-direction: column;
+        width: min-content;
         &__cafe{
             display: none;
+        }
+    }
+
+    .social{
+        &__icons{
+            width: 1.5rem;
         }
     }
 }

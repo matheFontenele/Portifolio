@@ -1,0 +1,53 @@
+@import 'styles/__variaveis.scss';
+@import 'styles/__breakpoints.scss';
+
+.social{
+    &__title{
+        color: $branco;
+    }
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 2rem 0;
+    &__links{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.link{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    background-color: $verde;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+    &__name{
+        padding-right: 10px;
+        color: $branco;
+    }
+    &__img{
+        margin: -10px 0 -10px -10px;
+    }
+}
+
+@media (min-width: $mobile) and (max-width: $iphone){
+    .social{
+        padding: 10px;
+        margin-bottom: 25px;
+        &__links{
+            margin-top: 15px;
+            justify-content: space-around;
+        }
+    }
+
+    .link{
+        background-color: transparent;
+        &__name{
+            display: none;
+        }
+        &__img{
+            width: 1.8rem;
+        }
+    }
+}

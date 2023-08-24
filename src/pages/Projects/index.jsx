@@ -1,5 +1,5 @@
-import BannerProject from "components/BannerProjects";
-import Projects from "components/Projects";
+import BannerProject from "pages/Projects/BannerProjects";
+import Projects from "pages/Projects/Projects";
 
 export default function Projetos(){
     return(

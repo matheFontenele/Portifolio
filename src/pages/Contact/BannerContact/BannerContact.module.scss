@@ -1,4 +1,5 @@
 @import 'styles/__variaveis.scss';
+@import 'styles/__breakpoints.scss';
 
 .section{
     background: $background-escura;
@@ -20,5 +21,11 @@
     &__formulario{
         height: max-content;
         display: flex;
+    }
+}
+
+@media (min-width: $mobile) and (max-width: $iphone){
+    .section{
+        flex-direction: column;
     }
 }

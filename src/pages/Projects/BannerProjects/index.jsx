@@ -14,7 +14,7 @@ export default function BannerProject(){
             
             <p 
                 className={styles.banner__text}>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est nam dolor dolorum, labore voluptatum facilis. Quaerat commodi aliquid vel doloribus reiciendis ratione quisquam, doloremque, libero, nostrum expedita officia! Praesentium, libero.
+                    Abaixo alguns de meus projetos, alguns ainda inacabados pois sempre busco atualiza los com oque vou aprendendo
             </p>
         </section>
     )

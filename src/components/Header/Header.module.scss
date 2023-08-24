@@ -23,5 +23,10 @@
         }
     }
 }
+@media (min-width: $mobile) and (max-width: $iphone){
+    .header{
+        padding: .5rem;
+    }
+}
 
 

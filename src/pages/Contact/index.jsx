@@ -1,11 +1,11 @@
-import BannerContact from "components/BannerContact";
-import Social from "components/Social";
+import BannerContact from "pages/Contact/BannerContact";
+import SocialList from "./SocialList";
 
 export default function Contact(){
     return(
         <main>
             <BannerContact/>
-            <Social/>
+            <SocialList/>
         </main>
     )
 }

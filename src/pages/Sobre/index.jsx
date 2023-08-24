@@ -1,6 +1,6 @@
-import Apresenta from "components/Apresentacao";
-import Informacao from "components/Informacao";
-import Skills from "components/Skills";
+import Apresenta from "pages/Sobre/Apresentacao";
+import Informacao from "pages/Sobre/Informacao";
+import Skills from "pages/Sobre/Skills";
 
 
 export default function Sobre(){

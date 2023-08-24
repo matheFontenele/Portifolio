@@ -18,8 +18,8 @@ export default function Apresenta(){
                 </h1>
 
                 <p className={styles.apresentacao__sobre__text}>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus temporibus voluptatibus atque, quidem laborum dicta quisquam corrupti tempora adipisci nesciunt repellendus sunt esse corporis, architecto ad tenetur, doloremque quod blanditiis.<br/>
-                Atualmente busco minha primeira oportunidade como desenvolvedor Front End
+                    Estudante de Analise e desenvolvimento de sistemas, iniciei minha jornada em TI ainda no ensino medio, onde conheci e me apaixonei pela area de desenvolvimento Web, apesar de ter me afastado da area por um periodo, retornei a um tempo e me atualizei com todas as novidades (Na minha epoca Front End se resumia no bom e velho, HTML, CSS e JavaScript).<br/>
+                    Com conhecimento em HTML, CSS3, JavaScript, React e SASS e estudando React NAtive e Angula, busco minha primeira oportunidade na area de desenvolvimento Web Front End.
                 </p>
             </div>
         </section>

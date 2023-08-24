@@ -1,5 +1,5 @@
-import Banner from 'components/Banner';
-import FrontProjects from 'components/FrontProjects';
+import Banner from 'pages/Home/Banner';
+import FrontProjects from 'pages/Home/FrontProjects';
 import Contato from 'components/Contato';
 
 export default function Home(){
