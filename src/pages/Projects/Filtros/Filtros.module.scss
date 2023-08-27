@@ -1,0 +1,26 @@
+@import 'styles/__variaveis.scss';
+
+.filtros {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 20px 0;
+  &__filtro {
+    align-items: center;
+    background-color: $cinza;
+    border: none;
+    border-radius: 4px;
+    display: flex;
+    font-size: 1.25rem;
+    font-weight: bold;
+    justify-content: center;
+    padding: 2px 5px;
+    &__ativo {
+      background-color: $verde;
+      color: $branco;
+    }
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

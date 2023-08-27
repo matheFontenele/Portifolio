@@ -2,8 +2,21 @@ import { BsPersonWorkspace } from 'react-icons/bs'
 import Projetos from 'assets/Json/projetos.json'
 import styles from './Projects.module.scss'
 import classNames from 'classnames'
+import { useEffect, useState } from 'react'
 
-export default function Projects(){
+export default function Projects({busca}){
+    const [lista, setLista] = useState(Projetos);
+
+    useEffect(() => {
+        const newList = Projetos.filter(item => testeBusca(item.name));
+        setLista(newList)
+    },[busca])
+
+    function testeBusca(name){
+        const regex = new RegExp(busca, `i`);
+        return regex.test(name);
+    }
+
     return(
         <section className={styles.section}>
             <h1 className={styles.section__title}>
@@ -12,7 +25,7 @@ export default function Projects(){
             </h1>
             
             <div className={styles.section__projetos}>
-                {Projetos.map((projeto) => (
+                {lista.map((projeto) => (
                     <div className={styles.projeto} 
                         key={projeto.id}>
                         

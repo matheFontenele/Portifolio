@@ -21,7 +21,6 @@
 }
 
 .projeto{
-    cursor: pointer;
     display: flex;
     width: 50rem;
     justify-content: space-between;
@@ -55,9 +54,6 @@
     }
 }
 
-.projeto:hover{
-    border-color: $branco;
-}
 
 .tec{
     display: flex;

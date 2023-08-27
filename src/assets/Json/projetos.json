@@ -8,23 +8,28 @@
         "tecnologias": [
             {
                 "id": "html",
-                "label": "HTML5"
+                "label": "HTML5",
+                "num": 1
             },
             {
                 "id": "css",
-                "label": "CSS3"
+                "label": "CSS3",
+                "num": 2
             },
             {
                 "id": "javascript",
-                "label": "JavaScript"
+                "label": "JavaScript",
+                "num": 3
             },
             {
                 "id": "react",
-                "label": "React"
+                "label": "React",
+                "num": 5
             },
             {
                 "id": "sass",
-                "label": "SASS"
+                "label": "SASS",
+                "num": 6
             }
         ]
     },
@@ -37,27 +42,33 @@
         "tecnologias": [
             {
                 "id": "html",
-                "label": "HTML5"
+                "label": "HTML5",
+                "num": 1
             },
             {
                 "id": "css",
-                "label": "CSS3"
+                "label": "CSS3",
+                "num": 2
             },
             {
                 "id": "javascript",
-                "label": "JavaScript"
+                "label": "JavaScript",
+                "num": 3
             },
             {
                 "id": "typescript",
-                "label": "TypeScript"
+                "label": "TypeScript",
+                "num": 4
             },
             {
                 "id": "react",
-                "label": "React"
+                "label": "React",
+                "num": 5
             },
             {
                 "id": "sass",
-                "label": "SASS"
+                "label": "SASS",
+                "num": 6
             }
         ]
     },
@@ -70,15 +81,18 @@
             "tecnologias": [
                 {
                     "id": "html",
-                    "label": "HTML5"
+                    "label": "HTML5",
+                    "num": 1
                 },
                 {
                     "id": "css",
-                    "label": "CSS3"
+                    "label": "CSS3",
+                    "num": 2
                 },
                 {
                     "id": "javascript",
-                    "label": "JavaScript"
+                    "label": "JavaScript",
+                    "num": 3
                 }
             ]
         },
@@ -91,23 +105,28 @@
             "tecnologias": [
                 {
                     "id": "html",
-                    "label": "HTML5"
+                    "label": "HTML5",
+                    "num": 1
                 },
                 {
                     "id": "css",
-                    "label": "CSS3"
+                    "label": "CSS3",
+                    "num": 2
                 },
                 {
                     "id": "javascript",
-                    "label": "JavaScript"
+                    "label": "JavaScript",
+                    "num": 3
                 },
                 {
                     "id": "react",
-                    "label": "React"
+                    "label": "React",
+                    "num": 5
                 },
                 {
                     "id": "sass",
-                    "label": "SASS"
+                    "label": "SASS",
+                    "num": 6
                 }
             ]
         },
@@ -120,19 +139,23 @@
             "tecnologias": [
                 {
                     "id": "html",
-                    "label": "HTML5"
+                    "label": "HTML5",
+                    "num": 1
                 },
                 {
                     "id": "css",
-                    "label": "CSS3"
+                    "label": "CSS3",
+                    "num": 2
                 },
                 {
                     "id": "javascript",
-                    "label": "JavaScript"
+                    "label": "JavaScript",
+                    "num": 3
                 },
                 {
                     "id": "native",
-                    "label": "React Native"
+                    "label": "React Native",
+                    "num": 8
                 }
             ]
         }
