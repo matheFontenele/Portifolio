@@ -19,5 +19,19 @@
         "de": "Alura",
         "data": "Ago 2023",
         "credencial": "https://cursos.alura.com.br/certificate/14352d64-6b3d-4de8-9c8c-c30a692e5597?lang=pt_BR"
+    },
+    {
+        "id": 4,
+        "nome": "React e Node.js: consumindo APIs no React no projeto full stack",
+        "de": "Alura",
+        "data": "Nov 2023",
+        "credencial": "https://cursos.alura.com.br/certificate/041b6d16-2397-42fa-bfd0-ec685c2525e9?lang=pt_BR"
+    },
+    {
+        "id": 5,
+        "nome": "Python: entendendo a Orientação a Objetos",
+        "de": "Alura",
+        "data": "Nov 2023",
+        "credencial": "https://cursos.alura.com.br/certificate/40042324-9b41-4e73-8113-cbf16aa2f851?lang=pt_BR"
     }
 ]
