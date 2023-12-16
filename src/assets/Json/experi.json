@@ -30,8 +30,15 @@
     {
         "id": 5,
         "nome": "CRC Grupo AlmaViva",
-        "tempo": ["Abril 2023", "Atulamente"],
+        "tempo": ["Abril 2023", "Agosto 2023"],
         "cargo": "Operador de cobrança",
         "func": "Ligar e receber ligações referentes a dívidas de cartão de crédito."
+    },
+    {
+        "id": 6,
+        "nome": "Concentrix",
+        "tempo": ["Setembro 2023", "Atualmente"],
+        "cargo": "Operador",
+        "func": "Tratar mediações entre comprador e vendedor referentes a negociações de plataforma de compras e-commerce"
     }
 ]
