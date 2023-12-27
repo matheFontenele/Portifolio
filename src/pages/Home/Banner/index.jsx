@@ -25,7 +25,7 @@ export default function Banner(){
                     <BiLogoHtml5/>
                     <BiLogoCss3/>
                     <BiLogoJavascript/>
-                    <BiLogoTypescript/>
+                    <BiLogoNodeJS/>
                     <BiLogoReact/>
                     <BiLogoSass/>
                 </ul>
