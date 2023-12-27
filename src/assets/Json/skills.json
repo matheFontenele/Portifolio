@@ -24,12 +24,12 @@
         "sobre": "JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web."
     },
     {
-        "id": "typescript",
+        "id": "nodejs",
         "num": 4,
-        "nome": "TypeScript",
-        "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg",
+        "nome": "NodeJs",
+        "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-plain.svg",
         "link": "",
-        "sobre": "TypeScript é uma linguagem de programação de código aberto desenvolvida pela Microsoft. É um superconjunto sintático estrito de JavaScript e adiciona tipagem estática opcional à linguagem."
+        "sobre": "Node.js é um software de código aberto, multiplataforma, baseado no interpretador V8 do Google e que permite a execução de códigos JavaScript fora de um navegador web. A principal característica do Node.js é sua arquitetura assíncrona e orientada por eventos"
     },
     {
         "id": "react",
